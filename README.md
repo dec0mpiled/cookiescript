@@ -5,14 +5,14 @@ A small JavaScript Library for easy in-site cookie management.
 
 # Supported Functions are:
 
-- BakeCookie(name, value);
+- OCookie.Bake(name, value);
 
 Create a cookie with specified name and value.
 
-- EatCookie(name);
+- OCookie.Eat(name);
 
 Gets the data of cookie with specified name. Can be combined with a var definition to save the cookie data to a variable.
 
-- BurnCookie(name);
+- OCookie.Burn(name);
  
 Deletes cookie with specified name.
