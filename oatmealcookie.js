@@ -21,4 +21,4 @@ function EatCookie(name){
 
 function BurnCookie(name){
     BakeCookie(name,'');
-}
+} 
