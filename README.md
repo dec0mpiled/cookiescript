@@ -1,6 +1,6 @@
 # OatmealCookieJS
 A small JavaScript Library for easy in-site cookie management.
-- Place OatmealCookie.js in your 'routes' directory.
+- Place oatmealcookie.js in your 'routes' directory.
 - Add 'var OCookie = require('oatmealcookie');' into whatever Script file you need to make cookies in.
 
 # Supported Functions are:
