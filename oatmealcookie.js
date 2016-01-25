@@ -1,11 +1,11 @@
-function BakeCookie(name,value) {
+function Bake(name,value) {
    var oDate = new Date();
     oDate.setYear(oDate.getFullYear()+1);
     var oCookie = encodeURIComponent(name) + '=' + encodeURIComponent(value) + ';expires=' + oDate.toGMTString() + ';path=/';
     document.cookie= oCookie; 
 }
 
-function EatCookie(name){
+function Eat(name){
         name = name.toLowerCase();
     var oCrumbles = document.cookie.split(';');
     for(var i=0; i<oCrumbles.length;i++)
@@ -19,6 +19,6 @@ function EatCookie(name){
     return '';
 }
 
-function BurnCookie(name){
+function Burn(name){
     BakeCookie(name,'');
 } 
