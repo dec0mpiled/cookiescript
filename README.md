@@ -1,18 +1,18 @@
 # OatmealCookieJS
 A small JavaScript Library for easy in-site cookie management.
-- Place oatmealcookie.js in your 'models' directory.
-- Add 'var OCookie = require('../models/oatmealcookie');' into whatever Script file you need to make cookies in.
+- Place oatmealcookie.js in your 'public' directory.
+- Add <script type="text/javascript" src="/oatmealcookie.js"></script> into the <head> tag of the page you'd like to make cookies on.
 
 # Supported Functions are:
 
-- OCookie.Bake(name, value);
+- Bake(name, value);
 
 Create a cookie with specified name and value.
 
-- OCookie.Eat(name);
+- Eat(name);
 
 Gets the data of cookie with specified name. Can be combined with a var definition to save the cookie data to a variable.
 
-- OCookie.Burn(name);
+- Burn(name);
  
 Deletes cookie with specified name.
