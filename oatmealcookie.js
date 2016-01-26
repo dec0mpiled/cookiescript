@@ -20,5 +20,5 @@ function Eat(name){
 }
 
 function Burn(name){
-    BakeCookie(name,'');
-} 
+    Bake(name,'');
+}
