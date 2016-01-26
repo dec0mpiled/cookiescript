@@ -1,7 +1,7 @@
 # OatmealCookieJS
 A small JavaScript Library for easy in-site cookie management.
 - Place oatmealcookie.js in your 'public' directory.
-- Add <script type="text/javascript" src="/oatmealcookie.js"></script> into the <head> tag of the page you'd like to make cookies on.
+- Add `<script type="text/javascript" src="/oatmealcookie.js"></script>` into the `<head>` tag of the page you'd like to make cookies on.
 
 # Supported Functions are:
 
